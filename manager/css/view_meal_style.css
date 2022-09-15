@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.nav_top{
+    height: 50px;
+    background-color: rgb(90, 88, 88);
+    text-transform: uppercase;
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.nav_top a{
+    text-decoration: none;
+    color: white;
+    font-family: Times new Roman;
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+.nav_top a:hover{
+    font-size: 18px;
+}
+
+.manager_info{
+    width: 350px;
+    height: 500px;
+    float: left;
+    border-radius: 5px;
+    background-color: lightgrey;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.manager_info img{
+    width: 80px;
+    height: 82px;
+    border: 3px solid #4CAF50;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.manager_info table{
+    width: 300px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+.manager_info caption{
+    height: 35px;
+    padding-top: 7px;
+    background-color:#4CAF50;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    font-family: cursive;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.manager_info th{
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 5px;
+    font-family: cursive;
+}
+
+.manager_info td{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 5px;
+    font-family: cursive;
+}
+
+.manager_info button{
+    background-color:#4CAF50;
+    border: 2px solid#4CAF50;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.manager_info button, a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.manager_info a:hover{
+    font-size: 18px;
+}
+
+.header{
+    width: 930px;
+    height: 60px;
+    background-color: lightgrey;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+    float: left;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: Times New Roman;
+}
+
+.view_point{
+    width: 930px;
+    margin-left: 25px;
+    margin-top: 10px;
+    float: left;
+}
+
+#tables{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 930px;
+}
+
+#tables td, #tables th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#tables tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+#tables tr:hover{
+    background-color: #ddd;
+}
+  
+#tables th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#tables a{
+    color: black;
+    text-decoration: none;
+}
+
+#tables a:hover{
+    color: red;
+}

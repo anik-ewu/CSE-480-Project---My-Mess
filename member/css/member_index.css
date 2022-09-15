@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.nav_top{
+    height: 50px;
+    background-color: rgb(118, 174, 189);
+    text-transform: uppercase;
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.nav_top a{
+    text-decoration: none;
+    color: white;
+    font-family: Times new Roman;
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+.nav_top a:hover{
+    font-size: 18px;
+}
+
+.nav_top a.active{
+    color: black;
+}
+
+.member_info{
+    width: 350px;
+    height: 500px;
+    float: left;
+    border-radius: 5px;
+    background-color:  rgb(118, 174, 189);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.member_info img{
+    width: 80px;
+    height: 82px;
+    border: 3px solid rgb(180, 72, 72);
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.member_info table{
+    width: 300px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+.member_info caption{
+    height: 35px;
+    padding-top: 7px;
+    background-color:#dae2da;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    font-family: cursive;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.member_info th{
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 5px;
+    font-family: cursive;
+}
+
+.member_info td{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 5px;
+    font-family: cursive;
+}
+
+.member_info button{
+    background-color:#dae2da;
+    border: 2px solid #dae2da;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.member_info button, a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.member_info a:hover{
+    font-size: 18px;
+}
+
+.payment_view{
+    width: 950px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+.payment_view h1{
+    font-size: 18px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.payment_view table{
+    width: 920px;
+    margin-left: 15px;
+    border-collapse: collapse;
+}
+
+.payment_view th{
+    width: 920px;
+    font-size: 15px;
+    font-family: cursive;
+    text-transform: uppercase;
+    border: 1px solid rgb(118, 174, 189);
+}
+
+.payment_view td{
+    width: 920px;
+    font-family: cursive;
+    text-align: center;
+    border: 1px solid rgb(118, 174, 189);
+}
+
+.mess_statement{
+    width: 350px;
+    height: 170px;
+    margin: 50px;
+    border: 1px solid rgb(180, 72, 72);
+    border-radius: 5px;
+    float: left;
+}
+
+.mess_statement table{
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.mess_statement caption{
+    height: 30px;
+    background-color: rgb(118, 174, 189);
+    font-size: 18px;
+    font-family: cursive;
+    color: white;
+}

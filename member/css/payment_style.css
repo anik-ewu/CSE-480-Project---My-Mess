@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.nav_top{
+    height: 50px;
+    background-color: rgb(118, 174, 189);
+    text-transform: uppercase;
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.nav_top a{
+    text-decoration: none;
+    color: white;
+    font-family: Times new Roman;
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+.nav_top a:hover{
+    font-size: 18px;
+}
+
+.nav_top a.active{
+    color: black;
+}
+
+.member_info{
+    width: 350px;
+    height: 500px;
+    float: left;
+    border-radius: 5px;
+    background-color:  rgb(118, 174, 189);
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.member_info img{
+    width: 80px;
+    height: 82px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.member_info table{
+    width: 300px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+.member_info caption{
+    height: 35px;
+    padding-top: 7px;
+    background-color:#dae2da;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    font-family: cursive;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.member_info th{
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 5px;
+    font-family: cursive;
+}
+
+.member_info td{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 5px;
+    font-family: cursive;
+}
+
+.member_info button{
+    background-color:#dae2da;
+    border: 2px solid #dae2da;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.member_info button, a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.member_info a:hover{
+    font-size: 18px;
+}
+
+.add_payment{
+    width: 950px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.add_payment h1{
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: black;
+}
+
+.add_payment table, label{
+    width: 900px;
+    height: 200px;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.add_payment input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #dae2da;
+}
+
+.add_payment .submit{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(118, 174, 189);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 700px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.add_payment .submit:hover{
+    color: white;
+    font-size: 15px;
+}
+
+
+.payment_view{
+    width: 900px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.payment_view h1{
+    font-size: 18px;
+}
+
+.payment_view td, th{
+    width: 800px;
+    border: 1px solid rgb(118, 174, 189);
+    font-size: 15px;
+}
+
+.payment_view{
+    border-collapse: collapse;
+}
+
+.payment_view td{
+    height: 30px;
+    font-size: 18px;
+    /*text-align: center;*/
+}

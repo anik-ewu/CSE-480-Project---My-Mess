@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.nav_top{
+    height: 50px;
+    background-color: rgb(90, 88, 88);
+    text-transform: uppercase;
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.nav_top a{
+    text-decoration: none;
+    color: white;
+    font-family: Times new Roman;
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+.nav_top a:hover{
+    font-size: 18px;
+}
+
+.manager_info{
+    width: 350px;
+    height: 500px;
+    float: left;
+    border-radius: 5px;
+    background-color: lightgrey;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.manager_info img{
+    width: 80px;
+    height: 82px;
+    border: 3px solid #4CAF50;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.manager_info table{
+    width: 300px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+.manager_info caption{
+    height: 35px;
+    padding-top: 7px;
+    background-color:#4CAF50;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    font-family: cursive;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.manager_info th{
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 5px;
+    font-family: cursive;
+}
+
+.manager_info td{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 5px;
+    font-family: cursive;
+}
+
+.manager_info button{
+    background-color:#4CAF50;
+    border: 2px solid#4CAF50;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.manager_info button, a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.manager_info a:hover{
+    font-size: 18px;
+}
+
+.set_payment{
+    width: 950px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.set_payment h1{
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: black;
+}
+
+.set_payment table, label{
+    width: 900px;
+    height: 200px;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.set_payment input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #dae2da;
+}
+
+.set_payment .submit{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(118, 174, 189);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 700px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.set_payment .submit:hover{
+    color: white;
+    font-size: 15px;
+}

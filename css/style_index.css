@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(61, 52, 102);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left_card{
+    width: 50%;
+    height: 300px;
+    border: 2px solid rgb(138, 137, 136);
+    border-left: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
+    float: left;
+    margin-top: 130px;
+    font-family: cursive;
+    color: white;
+    text-transform: uppercase;
+}
+
+.left_card h1{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: tomato;
+}
+
+.left_card p{
+    font-size: 14px;
+    padding-left: 150px;
+    padding-right: 200px;
+    padding-top: 30px;
+    text-overflow: ellipsis;
+}
+
+.left_card img{
+    width: 100px;
+    height: 105px;
+    margin-left: 270px;
+    border: 3px solid tomato;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(245, 244, 244, 0.2), 0 6px 20px 0 rgba(241, 240, 240, 0.19);
+}
+
+.left_card button{
+    width: 140px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color:  rgb(61, 52, 102);
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+.left_card button:hover{
+    border-color:tomato;
+}
+
+.left_card a{
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.left_card a:hover{
+    color: tomato;
+}
+
+.right_card{
+    width: 500px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 20%;
+    background-color:rgb(61, 52, 102);
+    border-left: hidden;
+    border-bottom: hidden;
+    margin-left: 110px;
+    margin-top: 130px;
+    float: left;
+}
+
+.right_card h1{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    padding-top: 65px;
+    color: white;
+}
+
+.right_card button{
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #f7f1f0;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 230px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.right_card button a{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+    color: tomato;
+    text-transform: uppercase;
+    font-family: cursive;
+  }
+
+.right_card button a:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.right_card button:hover a{
+    padding-right: 25px;
+}
+
+.right_card button:hover a:after{
+    opacity: 1;
+    right: 0;
+}
+
+.footer{
+    width: 500px;
+    height: 30px;
+    float: left;
+    padding-top: 150px;
+    margin-left: 440px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footer a:hover{
+    color: blanchedalmond;
+}
+
+.right_card_cm{
+    width: 550px;
+    height: 300px;
+    margin-top: 120px;
+    margin-right: 50px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    float: right;
+}
+
+.right_card_cm input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+.right_card_cm button{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+  
+.right_card_cm button:hover{
+    background-color: #45a049;
+}
+
+.right_card_cm legend{
+    color: tomato;
+    font-size: 20px;
+}
+
+.right_card_cm a{
+    text-decoration: none;
+    color: white;
+    padding-left: 400px;
+}
+
+.right_card_cm a:hover{
+    color: tomato;
+}
+
+.submit{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 18px;
+    background-color: green;
+    letter-spacing: 2px;
+}
+
+.error{
+    color: white;
+    text-transform: lowercase;
+}
